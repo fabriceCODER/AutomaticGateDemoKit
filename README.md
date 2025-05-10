@@ -6,7 +6,7 @@
 
 This Arduino project uses an ultrasonic sensor to detect approaching objects (e.g., people or vehicles) and automatically opens a servo-controlled gate. It features status indication with red and blue LEDs and a buzzer that beeps gently when the gate is open.
 
-## 📋 Features
+##  Features
 
 - Automatically opens the gate when an object is within a certain distance.
 - Closes the gate after 5 seconds of no detection.
@@ -17,7 +17,7 @@ This Arduino project uses an ultrasonic sensor to detect approaching objects (e.
 
 ---
 
-## 🔧 Hardware Required
+##  Hardware Required
 
 | Component               | Quantity |
 |------------------------|----------|
@@ -48,7 +48,7 @@ This Arduino project uses an ultrasonic sensor to detect approaching objects (e.
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. **Distance Measurement**  
    The ultrasonic sensor emits a sound wave and measures the time it takes to return. This time is converted into distance.
@@ -63,9 +63,9 @@ This Arduino project uses an ultrasonic sensor to detect approaching objects (e.
 
 ---
 
-## 🧠 Code Overview
+##  Code Overview
 
-```
+```cpp
 if (distance < thresholdDistance) {
     // Object detected: open gate, light blue LED, start beeping
 } else {
@@ -88,7 +88,7 @@ if (distance < thresholdDistance) {
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 - **Gate not moving?** Check servo power and signal wiring.
 - **No detection?** Ensure ultrasonic sensor faces the correct direction and is wired properly.
@@ -96,7 +96,7 @@ if (distance < thresholdDistance) {
 
 ---
 
-## 🧪 Applications
+##  Applications
 
 - Automated entry gates
 - Contactless trash bins
